@@ -17,13 +17,17 @@
 
 ## Making an issue:
 
+<p><b>Feature Requests</b></p>
+
+1. If you have an idea for a new feature or a change to an existing feature, create an issue and prefix it with `Feature:` Following the colon add a brief description of the feature. <i>Example:</i>```Feature: Add a new help menu to the website.  ``` 
+2. Add a comment explaining the feature in more detail. Explain what the feature is, how it will be used, and why it is needed.
+
 <p><b>Minor Bug Reporting</b></p>
 
-1. If the issue pertains to a ***NON APPLICATION BRAKING BUG*** that you or someone else has found prefix the issue with `Bug:` Following the colon add a brief description of the bug. <i>Example:</i>
-```Bug: Words are misspelled on the home page.  ```
+1. If the issue pertains to a ***NON APPLICATION BRAKING BUG*** that you or someone else has found prefix the issue with `Bug:` Following the colon add a brief description of the bug. <i>Example:</i>```Bug: Words are misspelled on the home page.  ```
 
-2. Add a comment explaining where the bug was found. This can be done in text or a screenshot. Include if you or someone else has been able to recreate the bug and the steps taken to do so. 
-3. If you have have guidance or thoughts on a possible course of action to fix the bug add it to the comment as well. <i>Example:</i>
+1. Add a comment explaining where the bug was found. This can be done in text or a screenshot. Include if you or someone else has been able to recreate the bug and the steps taken to do so. 
+2. If you have have guidance or thoughts on a possible course of action to fix the bug add it to the comment as well. <i>Example:</i>
 ```I think the bug is in the home page component. I was able to recreate the bug by clicking on the home page link in the nav menu.```
 
 
