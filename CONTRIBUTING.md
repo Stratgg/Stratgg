@@ -28,7 +28,7 @@
 <hr>
 
 ## Release strategy:
-Stratgg maintains 3 protected branches. 
+Strat-gg maintains 3 protected branches. 
 - `main` The production branch
 - `REL_`  a.k.a the release branch; is where all planned features for the next production product are staged.
 
