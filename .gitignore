@@ -1,3 +1,14 @@
+.DS_Store
+node_modules
+/build
+/.svelte-kit
+/package
+.env
+.env.*
+!.env.example
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
 # Logs
 logs
 *.log
@@ -23,7 +34,6 @@ tmp/
 temp/
 
 # Dependency directories
-node_modules/
 jspm_packages/
 dist
 dist-ssr
@@ -65,8 +75,6 @@ web_modules/
 # Editor directories and files
 .vscode
 !.vscode/extensions.json
-.idea
-.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
