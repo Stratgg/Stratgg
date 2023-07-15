@@ -8,6 +8,7 @@ export default {
       'stratggLightBlue': '#88EFF6',
       'stratggDarkBlue': '#00162D',
       'white': '#FFFFFF',
+      'black': '#000000',
     },
     extend: {},
   },

@@ -14,7 +14,7 @@
       <h3 id="pageNotFoundSubHeading" class="text-5xl">404 - Page Not Found</h3>
       <p id="pageNotFoundPara" class="text-3xl">Sorry this page could not be found. Please try again.</p>
       <!-- TODO possibly add an image or GIF -->
-      <button id="pageNotFoundHomeBtn" class="bg-stratggLightBlue rounded-lg text-xl px-2 py-0.5 m-2" on:click={takeHome}>Go To Homepage</button>
+      <button id="pageNotFoundHomeBtn" class="bg-stratggLightBlue rounded-lg text-xl px-2 py-0.5 m-2 text-black" on:click={takeHome}>Go To Homepage</button>
   </div>
 </body>
 
