@@ -6,9 +6,10 @@
   };
 </script>
 
-<div class="pageNotFoundContainer">
-  <h1 class="pageNotFoundHeading">404: Page Not Found</h1>
+<div class="pageNotFoundContainer container">
+  <h1 class="pageNotFoundHeading pageNotFoundHeading">Oops!</h1>
+  <h3 class="pageNotFoundSubHeading pageNotFoundHeading">404 - Page Not Found</h3>
   <p class="pageNotFoundPara">Sorry this page could not be found. Please try again.</p>
   <!-- TODO possibly add an image or GIF -->
-  <button class="pageNotFoundHomeBtn" on:click={takeHome}>Go Home</button>
+  <button class="pageNotFoundHomeBtn btn" on:click={takeHome}>Go To Homepage</button>
 </div>
