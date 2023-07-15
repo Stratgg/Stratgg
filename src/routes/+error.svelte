@@ -1,13 +1,10 @@
 <!-- This error page is displayed when a page cannot not found -->
-
 <script lang="ts">
  const takeHome = () => {
     window.location.href = "/";
-  };
-
-
-  
+  };  
 </script>
+
 <body id="pageNotFoundBody" class="bg-stratggDarkBlue">
   <div id="pageNotFoundFlexContaier" class="text-center text-white h-screen flex flex-col items-center justify-center"  >
       <h1 id="pageNotFoundHeading " class="text-9xl mb-5  " >Oops!</h1>
@@ -17,4 +14,3 @@
       <button id="pageNotFoundHomeBtn" class="bg-stratggLightBlue rounded-lg text-xl px-2 py-0.5 m-2 text-black" on:click={takeHome}>Go To Homepage</button>
   </div>
 </body>
-
