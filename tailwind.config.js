@@ -2,9 +2,12 @@
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    // in the "colors" object we can define our own colors
+    // in the "colors" object we define colors
+    // even if the color already exists
     colors: {
-      'coolBlue': '#88EFF6',
+      'stratggLightBlue': '#88EFF6',
+      'stratggDarkBlue': '#00162D',
+      'white': '#FFFFFF',
     },
     extend: {},
   },
