@@ -1,4 +1,8 @@
 <!-- This error page is displayed when a page cannot not found -->
+<!-- This modifies the title of this page -->
+<svelte:head>
+  <title>Page Not Found</title>
+</svelte:head>
 
 <script lang="ts">
  const takeHome = () => {
