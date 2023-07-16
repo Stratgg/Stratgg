@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 512 512" data-name="Слой 1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<style>.cls-1{fill:#cdccd2;}.cls-2{fill:#ffffff;}.cls-3{opacity:0.79;}.cls-4{fill:url(#linear-gradient);}.cls-5{fill:url(#linear-gradient-2);}.cls-6{fill:url(#linear-gradient-3);}</style>
+<linearGradient gradientUnits="userSpaceOnUse" id="linear-gradient" x1="305.31" x2="318.59" y1="210.09" y2="196.81">
+<stop offset="0" stop-color="#fbb03b"/>
+<stop offset="0.19" stop-color="#ea6d48"/>
+<stop offset="0.44" stop-color="#d4145a"/>
+<stop offset="0.64" stop-color="#bb0b5b"/>
+<stop offset="0.86" stop-color="#a6035d"/>
+<stop offset="1" stop-color="#9e005d"/>
+</linearGradient>
+<linearGradient id="linear-gradient-2" x1="172.97" x2="340.88" xlink:href="#linear-gradient" y1="337.59" y2="169.68"/>
+<linearGradient id="linear-gradient-3" x1="217.29" x2="295.71" xlink:href="#linear-gradient" y1="293.12" y2="214.7"/>
+</defs>
+<title/>
+<circle class="cls-1" cx="255" cy="256" r="207.77"/>
+<circle class="cls-2" cx="254.68" cy="256.04" r="194.41"/>
+<g class="cls-3">
+<circle class="cls-4" cx="311.95" cy="203.45" r="9.39"/>
+<path class="cls-5" d="M313.44,158H201.24C179.51,158,161,175.94,161,197.68v112.2c0,21.73,18.51,39.13,40.24,39.13h112.2c21.74,0,38.56-17.39,38.56-39.13V197.68C352,175.94,335.18,158,313.44,158ZM334,304.42A27.2,27.2,0,0,1,306.43,332H208.26C192.73,332,180,319.94,180,304.42V206.24A28.35,28.35,0,0,1,208.26,178h98.16C322,178,334,190.72,334,206.24v98.17Z"/>
+<path class="cls-6" d="M256.5,198.46a55.45,55.45,0,1,0,55.45,55.45A55.45,55.45,0,0,0,256.5,198.46Zm0,91.54a36.09,36.09,0,1,1,36.09-36.09A36.1,36.1,0,0,1,256.5,290Z"/>
+</g>
+</svg>
