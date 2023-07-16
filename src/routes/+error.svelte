@@ -3,7 +3,8 @@
 </svelte:head>
 
 <script lang="ts">
- const takeHome = () => {
+import Footer from "$lib/components/Footer.svelte";
+const takeHome = () => {
     window.location.href = "/";
   };  
 </script>
@@ -15,3 +16,6 @@
     <!-- TODO possibly add an image or GIF -->
     <button id="pageNotFoundHomeBtn" class="btn-neutral rounded-lg text-xl px-2 py-0.5 m-2 text-white" on:click={takeHome}>Go To Homepage</button>
 </div>
+
+
+<Footer/>
