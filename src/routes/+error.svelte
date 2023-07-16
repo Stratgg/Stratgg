@@ -1,17 +1,15 @@
-<!-- This error page is displayed when a page cannot not found -->
-
 <script lang="ts">
  const takeHome = () => {
     window.location.href = "/";
-  };
+  };  
 </script>
 
-<div class="pageNotFoundFlexContaier flex-container">
-  <div class="pageNotFoundContainer container">
-    <h1 class="pageNotFoundHeading pageNotFoundHeading">Oops!</h1>
-    <h3 class="pageNotFoundSubHeading pageNotFoundHeading">404 - Page Not Found</h3>
-    <p class="pageNotFoundPara">Sorry this page could not be found. Please try again.</p>
-    <!-- TODO possibly add an image or GIF -->
-    <button class="pageNotFoundHomeBtn btn" on:click={takeHome}>Go To Homepage</button>
+<body id="pageNotFoundBody" class="bg-primary">
+  <div id="pageNotFoundFlexContaier" class="text-center text-white h-screen flex flex-col items-center justify-center"  >
+      <h1 id="pageNotFoundHeading " class="text-9xl mb-5  " >Oops!</h1>
+      <h3 id="pageNotFoundSubHeading" class="text-5xl">404 - Page Not Found</h3>
+      <p id="pageNotFoundPara" class="text-3xl">Sorry this page could not be found. Please try again.</p>
+      <!-- TODO possibly add an image or GIF -->
+      <button id="pageNotFoundHomeBtn" class="btn-neutral rounded-lg text-xl px-2 py-0.5 m-2 text-white" on:click={takeHome}>Go To Homepage</button>
   </div>
-</div>
+</body>
