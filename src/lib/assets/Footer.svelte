@@ -5,7 +5,6 @@
   import youtube from '$lib/assets/images/footer-icons/youtube.svg'; 
 </script>
 
-
 <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded text-base ">
   <div class="grid grid-flow-col gap-4">
     <a class="link link-hover" href="/">Home</a>
