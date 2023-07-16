@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>Page Not Found</title>
+</svelte:head>
+
 <script lang="ts">
  const takeHome = () => {
     window.location.href = "/";
