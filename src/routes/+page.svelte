@@ -4,9 +4,8 @@
 </svelte:head>
 <script>
   import Footer from "$lib/components/Footer.svelte";
+	import Nav from "$lib/components/Nav.svelte";
 </script>
 
-
-<h1>STRATGG</h1>
-
+<Nav/>
 <Footer/>
