@@ -2,3 +2,9 @@
 <svelte:head>
   <title>StratGG / FAQ</title>
 </svelte:head>
+
+<script>
+  import Footer from "$lib/components/Footer.svelte";
+</script>
+
+<Footer/>
