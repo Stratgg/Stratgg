@@ -1,11 +1,13 @@
-<!-- This modifies the title of this page -->
-<svelte:head>
-  <title>StratGG / Home</title>
-</svelte:head>
 <script>
-  import Footer from "$lib/components/Footer.svelte";
-	import Nav from "$lib/components/Nav.svelte";
+	import Footer from '$lib/components/Footer.svelte';
+	import Nav from '$lib/components/Nav.svelte';
 </script>
 
-<Nav/>
-<Footer/>
+<!-- This modifies the title of this page -->
+<svelte:head>
+	<title>StratGG / Home</title>
+</svelte:head>
+
+<Nav />
+<div>Hello</div>
+<Footer />
