@@ -87,5 +87,11 @@ web_modules/
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
 
 .idea/
