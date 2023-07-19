@@ -1,5 +1,5 @@
 import { DataSource } from 'typeorm'
-import { PlayerGeneralInfo } from './entity/Player'
+import { PlayerGeneralInfo } from './entity/GeneralPlayerInfoEntity'
 
 export const AppDataSource = new DataSource({
 	type: 'sqlite',
