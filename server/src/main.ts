@@ -2,6 +2,8 @@ import fastify from 'fastify'
 import cors from '@fastify/cors'
 import limit from '@fastify/rate-limit'
 import dotenv from 'dotenv'
+import { PlayerInfo } from './entity/PlayerInfo'
+import { playerInfoRoute } from './routes/PlayerInfoRoute'
 
 dotenv.config()
 
@@ -19,6 +21,11 @@ const start = async () => {
 		max: 1000, //limits each IP to 50 requests per windowMs
 		timeWindow: '1 minute',
 	})
+
+	await server.register(playerInfoRoute, {
+		prefix: '/player_list',
+	})
+
 	try {
 		const address = await server.listen({ port: 4042, host: '' }, (err, address) => {
 			console.log(`Server listening on ${address}`)
