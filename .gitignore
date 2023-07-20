@@ -95,3 +95,4 @@ web_modules/
 !.yarn/versions
 
 .idea/
+bin

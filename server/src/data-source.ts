@@ -1,10 +1,20 @@
 import { DataSource } from 'typeorm'
 import { PlayerInfo } from './entity/PlayerInfo'
+import type { FastifyInstance } from 'fastify'
 
-export const AppDataSource = new DataSource({
-	type: 'sqlite',
-	database: 'playerGeneralInfo.sqlite',
-	synchronize: true,
-	logging: true,
-	entities: [PlayerInfo],
-})
+export async function databasePlugin(instance: FastifyInstance) {
+	const source = new DataSource({
+		type: 'sqlite',
+		database: './db/PlayerInfo.sqlite',
+		entities: [PlayerInfo],
+	})
+
+	try {
+		instance.log.info('Initializing database')
+		await source.initialize()
+		instance.log.info('Database initialized')
+	} catch (error) {
+		instance.log.error(error, 'Failed to initialize database')
+		throw error
+	}
+}

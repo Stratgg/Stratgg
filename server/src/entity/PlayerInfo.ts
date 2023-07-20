@@ -5,18 +5,18 @@ export class PlayerInfo extends BaseEntity {
 	@PrimaryGeneratedColumn('uuid')
 	declare id: string
 
-	@Column()
+	@Column('text')
 	declare first_name: string
 
-	@Column()
+	@Column('text')
 	declare last_name: string
 
-	@Column()
+	@Column('text')
 	declare rating: string
 
-	@Column()
+	@Column('text')
 	declare location: string
 
-	@Column()
+	@Column('text')
 	declare game: string
 }
