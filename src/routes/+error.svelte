@@ -1,9 +1,12 @@
 <svelte:head>
   <title>Page Not Found</title>
+  <link rel="icon" href={favicon} />
 </svelte:head>
 
 <script lang="ts">
 import Footer from "$lib/components/Footer.svelte";
+import favicon from "$lib/assets/favicons/favicon-32x32.ico";
+
 const takeHome = () => {
     window.location.href = "/";
   };  
