@@ -6,7 +6,7 @@ import fastify from 'fastify'
 export async function databasePlugin(instance: FastifyInstance) {
 	const source = new DataSource({
 		type: 'sqlite',
-		database: './db/PlayerInfo.sqlite',
+		database: './bin/db/PlayerInfo.sqlite',
 		entities: [PlayerInfo],
 	})
 
