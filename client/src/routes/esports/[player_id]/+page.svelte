@@ -9,6 +9,7 @@
   import favicon from "$lib/assets/favicons/favicon-32x32.ico";
 </script>
 
+<Nav/>
 <div>
   <h1>Player Name</h1>
 </div>
@@ -67,3 +68,5 @@
     <p>Player Stats</p>
   </div>
 </div>
+
+<Footer/>
