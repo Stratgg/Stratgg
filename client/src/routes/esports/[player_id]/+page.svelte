@@ -14,40 +14,72 @@
   <h1>Player Name</h1>
 </div>
 
-<div id="recentResultsAndGames">
+<div id="recentResultsAndGames"  >
   <!-- TODO add scoreboard thats displays teams and match scores -->
+  
+  <!-- SCOREBOARD -->
+  <div id="recentResultsScoreboardContainer" >
 
-  <div id="recentResultsScoreboardContainer">
+  <div id="scoreboardTeamsAndScore" class=" flex flex-row text justify-center text-center space-x-6">
+    <!-- TEAM 1 RESULTS -->
     <div id="team1">
       <!-- TODO add image that dynamically generates depending on players team -->
-      <h2>Team 1</h2>
-      <p>Team 1</p>
-      <p>Score</p>
+      <h2>Team 1 Name or Logo</h2>
+      <p class="bg-white text-black">Score 4</p>
     </div>    
 
+      <div>
+        <h1>VS</h1>
+      </div>
+      
+    <!-- TEAM 2 RESULTS -->
     <div id="team2">
       <!-- TODO add image that dynamically generates depending on players team -->
-      <h2>Team 2</h2>
-      <p>Team 2</p>
-      <p>Score</p>
-    </div>
-
-    <div id="playerRecentGameStats">
-      <h2>Recent Stats</h2>
-      <table>
-        <thead>[Player]'s results from [date that game was played]</thead>
-        <tbody>
-          <tr>
-            <td>Eliminations</td>
-            <td>Deaths</td>
-            <td>Assists</td>
-            <td>Damage</td>
-          </tr>
-      </table>
-      
+      <h2>Team 2 Name or Logo</h2>
+      <p class="bg-white text-black">Score 3</p>
     </div>
   </div>
 
+  </div>
+    
+
+<!-- RECENT PLAYER STATS -->
+  <div class="overflow-x-auto">
+  <table class="table table-zebra">
+    <!-- head -->
+    <thead>
+      <tr>
+        <th></th>
+        <th>Name</th>
+        <th>Job</th>
+        <th>Favorite Color</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- row 1 -->
+      <tr>
+        <th>1</th>
+        <td>Cy Ganderton</td>
+        <td>Quality Control Specialist</td>
+        <td>Blue</td>
+      </tr>
+      <!-- row 2 -->
+      <tr>
+        <th>2</th>
+        <td>Hart Hagerty</td>
+        <td>Desktop Support Technician</td>
+        <td>Purple</td>
+      </tr>
+      <!-- row 3 -->
+      <tr>
+        <th>3</th>
+        <td>Brice Swyre</td>
+        <td>Tax Accountant</td>
+        <td>Red</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 </div>
 
 <div id="playerBioContainer">
