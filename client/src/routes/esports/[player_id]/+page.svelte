@@ -25,7 +25,7 @@
     <div id="team1">
       <!-- TODO add image that dynamically generates depending on players team -->
       <h2>Team 1 Name or Logo</h2>
-      <textarea class="bg-white text-black text-center" placeholder="score" readonly></textarea>
+      <textarea class="bg-white text-black text-center resize-none" placeholder="score" readonly></textarea>
     </div>    
 
       <div>
@@ -36,7 +36,7 @@
     <div id="team2">
       <!-- TODO add image that dynamically generates depending on players team -->
       <h2>Team 2 Name or Logo</h2>
-      <textarea class="bg-white text-black text-center" placeholder="score" readonly></textarea>
+      <textarea class="bg-white text-black text-center resize-none" placeholder="score" readonly></textarea>
     </div>
   </div>
 </div>
