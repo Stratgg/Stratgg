@@ -42,7 +42,7 @@
 </div>
 </div>
 
-<div id="playerDiv3" class="flex flex-row">
+<div id="playerDiv3" class="flex flex-row justify-between">
   <div class="bg-red-100 mt-24 w-6/12">
     <h1 class="text-center">[Player]'s Bio</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia explicabo reiciendis ducimus quidem facere fuga. Facere excepturi rerum dolores! Delectus explicabo qui asperiores deleniti vel, nesciunt dolorem fuga laudantium aliquam?</p>
@@ -51,18 +51,23 @@
     </p>
   </div>
 
-  <div id="photoAndStatsContainer" class=""> </div>
-  <div id="playerProfilePhoto" class="w-4/12">
-  <!-- TODO add image that dynamically loads a players selected photo -->
-    <img class="rounded-full" src={profile}/> 
-</div>
-<!--   
-  <div id="playerStatsContainer">
-    <div>
-      <h2>Player Stats</h2>
-      <p>Player Stats</p>
+  <div id="photoAndStatsContainer">
+    <div id="playerProfilePhoto">
+    <!-- TODO add image that dynamically loads a players selected photo -->
+      <img class="rounded-full " src={profile}/> 
     </div>
-  </div> -->
+    <div id="playerStatsContainer" >
+      <div class="text-center">
+        <h2>[Player]'s Stats</h2>
+        <p>Rating</p>
+        <p>Eliminations</p>
+        <p>Death</p>
+        <p>Assists</p>
+        <p>Damage</p>
+      </div>
+    </div>
+  </div>
+  
 
 </div>
 
