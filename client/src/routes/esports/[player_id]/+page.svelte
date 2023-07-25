@@ -43,8 +43,8 @@
 </div>
 </div>
 
-<div id="playerDiv3" class="flex flex-row justify-between">
-  <div class="bg-red-100 w-6/12">
+<div id="playerDiv3" class="flex flex-row">
+  <div class="mt-24 w-6/12">
     <h1 class="text-center">[Player]'s Bio</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia explicabo reiciendis ducimus quidem facere fuga. Facere excepturi rerum dolores! Delectus explicabo qui asperiores deleniti vel, nesciunt dolorem fuga laudantium aliquam?</p>
     <p>
