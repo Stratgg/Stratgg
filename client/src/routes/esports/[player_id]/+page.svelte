@@ -46,8 +46,7 @@
   </div>
 </div>
 </div>
-
-<div id="playerDiv3" class="flex flex-row">
+<div id="playerDiv3" class="flex flex-row justify-between">
   <div class="mt-24 w-6/12">
     <h1 class="text-5xl mb-4">Bio:</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia explicabo reiciendis ducimus quidem facere fuga. Facere excepturi rerum dolores! Delectus explicabo qui asperiores deleniti vel, nesciunt dolorem fuga laudantium aliquam?</p>
@@ -55,8 +54,7 @@
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi quo harum facere consequuntur quos sunt, repudiandae at accusamus beatae quaerat amet, temporibus laboriosam, corrupti quasi! Eos sed libero quo quam?
     </p>
   </div>
-
-  <div id="photoAndStatsContainer" class="text-center">
+  <div id="photoAndStatsContainer" class="text-center ">
     <div id="playerProfilePhoto" >
     <!-- TODO add image that dynamically loads a players selected photo -->
       <img class="rounded-full w-6/12 m-auto" src={profile}/> 
@@ -80,8 +78,5 @@
       </div>
     </div>
   </div>
-  
-
 </div>
-
 <Footer/>
