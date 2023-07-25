@@ -25,7 +25,7 @@
     <div id="team1">
       <!-- TODO add image that dynamically generates depending on players team -->
       <h2>Team 1 Name or Logo</h2>
-      <textarea class="bg-white text-black text-center resize-none" placeholder="score" readonly></textarea>
+      <textarea class="bg-white text-black text-center resize-none rounded" placeholder="score" readonly></textarea>
     </div>    
 
       <div>
@@ -36,14 +36,14 @@
     <div id="team2">
       <!-- TODO add image that dynamically generates depending on players team -->
       <h2>Team 2 Name or Logo</h2>
-      <textarea class="bg-white text-black text-center resize-none" placeholder="score" readonly></textarea>
+      <textarea class="bg-white text-black text-center resize-none rounded" placeholder="score" readonly></textarea>
     </div>
   </div>
 </div>
 </div>
 
 <div id="playerDiv3" class="flex flex-row">
-  <div class="bg-red-100 mt-24 w-6/12">
+  <div class="mt-24 w-6/12">
     <h1 class="text-center">[Player]'s Bio</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia explicabo reiciendis ducimus quidem facere fuga. Facere excepturi rerum dolores! Delectus explicabo qui asperiores deleniti vel, nesciunt dolorem fuga laudantium aliquam?</p>
     <p>
