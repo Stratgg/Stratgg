@@ -1,7 +1,7 @@
 import { Entity, BaseEntity, Column, PrimaryGeneratedColumn } from 'typeorm'
 
 @Entity()
-export class PlayerInfo extends BaseEntity {
+export class PlayerEntity extends BaseEntity {
 	@PrimaryGeneratedColumn('uuid')
 	declare id: string
 
