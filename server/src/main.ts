@@ -36,7 +36,7 @@ const start = async () => {
 	})
 
 	await server.register(players, {
-		prefix: '/players',
+		prefix: '/players/:id',
 	})
 
 	try {

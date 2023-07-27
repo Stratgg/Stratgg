@@ -1,4 +1,4 @@
-export const load = ({ fetch, params }) => {
+export const load = async ({ fetch, params }) => {
   const fetchPlayer = async (id) => {
     const res = await fetch(`http://localhost:4042/players/${id}`)
     const data = await res.json()
@@ -7,6 +7,6 @@ export const load = ({ fetch, params }) => {
   }
 
   return {
-    player: fetchPlayer(params.player_id)
+    player: await fetchPlayer(params.player_id)
   }
 }
