@@ -1,5 +1,6 @@
 import { DataSource } from 'typeorm'
 import { PlayerEntity } from './entity/PlayerEntity'
+import { MatchEntity } from './entity/MatchEntity'
 import type { FastifyInstance } from 'fastify'
 import fastify from 'fastify'
 
@@ -7,7 +8,7 @@ export async function databasePlugin(instance: FastifyInstance) {
 	const source = new DataSource({
 		type: 'sqlite',
 		database: './bin/db/PlayerInfo.sqlite',
-		entities: [PlayerEntity],
+		entities: [PlayerEntity, MatchEntity],
 	})
 
 	try {
