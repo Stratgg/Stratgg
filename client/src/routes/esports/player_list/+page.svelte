@@ -28,17 +28,15 @@
         </tr>
       </thead>
       <tbody >
-        <tr > 
           {#each playerList as player}
-          <td>{player.first_name}</td>
-          <td>{player.last_name}</td>
-          <td>{player.rating}</td>
-          <td>{player.location}</td>
-          <td>{player.game}</td>
+          <tr>
+            <td>{player.first_name}</td>
+            <td>{player.last_name}</td>
+            <td>{player.rating}</td>
+            <td>{player.location}</td>
+            <td>{player.game}</td>
+          </tr>
           {/each}    
-        </tr>
-        
-        
       </tbody>  
     </table>
   </div>
