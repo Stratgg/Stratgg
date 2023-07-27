@@ -13,13 +13,33 @@
   console.log(playerList)
 </script>
 
+
+
 <Nav/>
-{#each playerList as player}
-  <h1>{player.id}</h1>
-  <h1>{player.first_name}</h1>
-  <h1>{player.last_name}</h1>
-  <h1>{player.rating}</h1>
-  <h1>{player.location}</h1>
-  <h1>{player.game}</h1>
-{/each}
+  <div class="overflow-x-auto">
+    <table class="table table-zebra">
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Rating</th>
+          <th>Rating</th>
+          <th>Game</th>
+        </tr>
+      </thead>
+      <tbody >
+        <tr > 
+          {#each playerList as player}
+          <td>{player.first_name}</td>
+          <td>{player.last_name}</td>
+          <td>{player.rating}</td>
+          <td>{player.location}</td>
+          <td>{player.game}</td>
+          {/each}    
+        </tr>
+        
+        
+      </tbody>  
+    </table>
+  </div>
 <Footer/>
