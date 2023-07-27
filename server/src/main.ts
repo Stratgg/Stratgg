@@ -4,7 +4,7 @@ import limit from '@fastify/rate-limit'
 import dotenv from 'dotenv'
 import { playerList } from './routes/PlayerList'
 import { databasePlugin } from './data-source'
-import { matchInfo } from './routes/Match'
+import { players } from './routes/Players'
 
 dotenv.config()
 
@@ -35,8 +35,8 @@ const start = async () => {
 		prefix: '/player_list',
 	})
 
-	await server.register(matchInfo, {
-		prefix: '/player_info',
+	await server.register(players, {
+		prefix: '/players',
 	})
 
 	try {
