@@ -2,10 +2,10 @@ import fastify from 'fastify'
 import cors from '@fastify/cors'
 import limit from '@fastify/rate-limit'
 import dotenv from 'dotenv'
-import { PlayerEntity } from './entity/PlayerEntity'
 import { playerList } from './routes/PlayerList'
 import { databasePlugin } from './data-source'
-import type { FastifyInstance } from 'fastify'
+import { matchInfo } from './routes/Match'
+
 dotenv.config()
 
 const server = fastify({
@@ -27,12 +27,16 @@ const start = async () => {
 	})
 	// Rate limiter
 	await server.register(limit, {
-		max: 1000, //limits each IP to 50 requests per windowMs
+		max: 1000, //limits each IP to 1000 requests per windowMs
 		timeWindow: '1 minute',
 	})
 
 	await server.register(playerList, {
 		prefix: '/player_list',
+	})
+
+	await server.register(matchInfo, {
+		prefix: '/player_info',
 	})
 
 	try {
