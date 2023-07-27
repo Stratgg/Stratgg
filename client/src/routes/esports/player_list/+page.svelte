@@ -10,32 +10,29 @@
   import favicon from "$lib/assets/favicons/favicon-32x32.ico";
   export let data
   const {playerList} = data
-  console.log(playerList)
 </script>
 
-
-
 <Nav/>
-  <div class="overflow-x-auto">
-    <table class="table table-zebra">
+  <div id="playerListTableContainer" class="overflow-x-auto">
+    <table id="playerListTable" class="table table-zebra">
       <thead>
         <tr>
           <th>First Name</th>
           <th>Last Name</th>
           <th>Rating</th>
-          <th>Rating</th>
+          <th>Location</th>
           <th>Game</th>
         </tr>
       </thead>
       <tbody >
           {#each playerList as player}
           <tr>
-            <td>{player.first_name}</td>
-            <td>{player.last_name}</td>
-            <td>{player.rating}</td>
-            <td>{player.location}</td>
-            <td>{player.game}</td>
-          </tr>
+            <td><a class="block" href="player_id">{player.first_name}</a></td>
+            <td><a class="block" href="player_id">{player.last_name}</a></td>
+            <td><a class="block" href="player_id">{player.rating}</td>
+            <td><a class="block" href="player_id">{player.location}</td>
+            <td><a class="block" href="player_id">{player.game}</td>
+            </tr>
           {/each}    
       </tbody>  
     </table>
