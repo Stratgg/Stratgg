@@ -2,8 +2,8 @@ import fastify from 'fastify'
 import cors from '@fastify/cors'
 import limit from '@fastify/rate-limit'
 import dotenv from 'dotenv'
-import { PlayerInfo } from './entity/PlayerInfo'
-import { playerInfoRoute } from './routes/PlayerInfoRoute'
+import { PlayerEntity } from './entity/PlayerEntity'
+import { playerList } from './routes/PlayerList'
 import { databasePlugin } from './data-source'
 import type { FastifyInstance } from 'fastify'
 dotenv.config()
@@ -31,7 +31,7 @@ const start = async () => {
 		timeWindow: '1 minute',
 	})
 
-	await server.register(playerInfoRoute, {
+	await server.register(playerList, {
 		prefix: '/player_list',
 	})
 
