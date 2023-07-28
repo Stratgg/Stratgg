@@ -1,0 +1,26 @@
+{
+	"include": ["./**/*.ts"],
+	"compilerOptions": {
+		"target": "ESNext",
+		"useDefineForClassFields": true,
+		"module": "ESNext",
+		"moduleResolution": "Node",
+		"strict": false,
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"esModuleInterop": true,
+		"lib": ["ESNext"],
+		"skipLibCheck": true,
+		"noEmit": true,
+
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+
+		"importsNotUsedAsValues": "error",
+
+		"baseUrl": ".",
+		"paths": {
+			"@server/*": ["./*"]
+		}
+	}
+}
