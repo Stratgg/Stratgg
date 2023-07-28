@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>StratGG / [Player]'s Profile </title>  
+  <title>StratGG / {player.first_name} {player.last_name}'s Profile </title>  
   <link rel="icon" href={favicon} />
 </svelte:head>
 
@@ -9,14 +9,17 @@
   import favicon from "$lib/assets/favicons/favicon-32x32.ico";
   import profile from "$lib/assets/images/profilephoto.jpg";
   import team1logo from "$lib/assets/images/team1logo.png";
-  import team2logo from "$lib/assets/images/team2logo.png";
+
+  import team2logo from "$lib/assets/images/team2logo.png"; 
+  export let data
+  // destructuring data object
+  const player = data.player[0] 
 </script>
 
 <Nav/>
 <div id="playerDiv1" class="text-center">
-  <h1 class="text-7xl mb-10">John Doe</h1>
+  <h1 class="text-7xl mb-10">{player.first_name} {player.last_name}</h1>
 </div>
-
 <div id="playerDiv2" class="flex flex-col text-center"   >
   <!-- TODO add scoreboard thats displays teams and match scores -->
   
@@ -62,11 +65,12 @@
     <div id="playerStatsContainer" >
       <div class="text-center">
         <div id="playerInfo">
-          <h2>John Doe's Information</h2>
+          <h2>{player.first_name} {player.last_name}'s Information</h2>
           <p>Team</p>
-          <p>Rating</p>
+          <p>{player.rating}</p>
           <p>Role</p>
-          <p>Location</p>
+          <p>{player.location}</p>
+
         </div>
         
         <div id="playerGameStats">
