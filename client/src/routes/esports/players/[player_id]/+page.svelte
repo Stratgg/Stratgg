@@ -9,6 +9,7 @@
   import favicon from "$lib/assets/favicons/favicon-32x32.ico";
   import profile from "$lib/assets/images/profilephoto.jpg";
   import team1logo from "$lib/assets/images/team1logo.png";
+
   import team2logo from "$lib/assets/images/team2logo.png"; 
   export let data
   // destructuring data object
@@ -69,6 +70,7 @@
           <p>{player.rating}</p>
           <p>Role</p>
           <p>{player.location}</p>
+
         </div>
         
         <div id="playerGameStats">
