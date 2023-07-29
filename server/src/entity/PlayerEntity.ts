@@ -19,4 +19,7 @@ export class PlayerEntity extends BaseEntity {
 
 	@Column('text')
 	declare game: string
+
+	@Column('text')
+	declare bio: string
 }

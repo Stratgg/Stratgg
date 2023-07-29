@@ -10,7 +10,7 @@
   import favicon from "$lib/assets/images/favicons/apple-touch-icon.png";
   export let data
   const {playerList} = data
-</script>
+  </script>
 
 <Nav/>
   <div id="playerListTableContainer" class="overflow-x-auto">
@@ -27,11 +27,11 @@
       <tbody >
           {#each playerList as player}
           <tr>
-            <td><a class="block" href="player_id">{player.first_name}</a></td>
-            <td><a class="block" href="player_id">{player.last_name}</a></td>
-            <td><a class="block" href="player_id">{player.rating}</td>
-            <td><a class="block" href="player_id">{player.location}</td>
-            <td><a class="block" href="player_id">{player.game}</td>
+            <td><a class="block" href='{player.id}'>{player.first_name}</a></td>
+            <td><a class="block" href='{player.id}'>{player.last_name}</a></td>
+            <td><a class="block" href='{player.id}'>{player.rating}</td>
+            <td><a class="block" href='{player.id}'>{player.location}</td>
+            <td><a class="block" href='{player.id}'>{player.game}</td>
             </tr>
           {/each}    
       </tbody>  
