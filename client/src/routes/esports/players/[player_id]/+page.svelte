@@ -8,11 +8,11 @@
 	import Nav from "$lib/components/Nav.svelte";
   import favicon from "$lib/assets/images/favicons/apple-touch-icon.png";
   import team1logo from "$lib/assets/images/team1logo.png";
-
   import team2logo from "$lib/assets/images/team2logo.png"; 
   export let data
   // destructuring data object
-  const player = data.player[0] 
+  const player = data.player[0]
+  console.log(player.photo) 
 </script>
 
 <Nav/>
@@ -50,14 +50,11 @@
 <div id="playerDiv3" class="flex flex-row justify-between">
   <div class="mt-24 w-6/12">
     <h1 class="text-5xl mb-4">Bio:</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia explicabo reiciendis ducimus quidem facere fuga. Facere excepturi rerum dolores! Delectus explicabo qui asperiores deleniti vel, nesciunt dolorem fuga laudantium aliquam?</p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi quo harum facere consequuntur quos sunt, repudiandae at accusamus beatae quaerat amet, temporibus laboriosam, corrupti quasi! Eos sed libero quo quam?
+    <p>{player.bio}
     </p>
   </div>
   <div id="photoAndStatsContainer" class="text-center ">
     <div id="playerProfilePhoto" >
-    <!-- TODO add image that dynamically loads a players selected photo -->
       <img class="rounded-full w-6/12 m-auto" src={player.photo}/> 
     </div>
     <div id="playerStatsContainer" >
