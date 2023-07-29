@@ -7,8 +7,8 @@
   import Footer from "$lib/components/Footer.svelte";
 	import Nav from "$lib/components/Nav.svelte";
   import favicon from "$lib/assets/images/favicons/apple-touch-icon.png";
-  import team1logo from "$lib/assets/images/team1logo.png";
-  import team2logo from "$lib/assets/images/team2logo.png"; 
+  import team1logo from "$lib/assets/images/player-profile/team1logo.png";
+  import team2logo from "$lib/assets/images/player-profile/team2logo.png"; 
   import profilePhoto from "$lib/assets/images/player-profile/temp/stan-marsh.jpg"
   export let data
   // destructuring data object
