@@ -7,7 +7,6 @@
   import Footer from "$lib/components/Footer.svelte";
 	import Nav from "$lib/components/Nav.svelte";
   import favicon from "$lib/assets/images/favicons/apple-touch-icon.png";
-  import profile from "$lib/assets/images/profilephoto.jpg";
   import team1logo from "$lib/assets/images/team1logo.png";
 
   import team2logo from "$lib/assets/images/team2logo.png"; 
@@ -34,7 +33,6 @@
       <img class="object-contain h-24 w-48" src={team1logo}/>
       <textarea class="text-black text-center resize-none w-6/12 rounded" placeholder="score" readonly></textarea>
     </div>    
-
       <div class="m-auto">
         <h1 class="text-5xl">VS</h1>
       </div>
@@ -60,7 +58,7 @@
   <div id="photoAndStatsContainer" class="text-center ">
     <div id="playerProfilePhoto" >
     <!-- TODO add image that dynamically loads a players selected photo -->
-      <img class="rounded-full w-6/12 m-auto" src={profile}/> 
+      <img class="rounded-full w-6/12 m-auto" src={player.photo}/> 
     </div>
     <div id="playerStatsContainer" >
       <div class="text-center">
