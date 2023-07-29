@@ -9,13 +9,14 @@
 	import Nav from "$lib/components/Nav.svelte";
 	import favicon from "$lib/assets/images/favicons/apple-touch-icon.png";
 	import Articles from "$lib/components/Articles.svelte";
+	import backGround from "$lib/assets/images/homepage/Thisguy2.png";
 </script>
 
 <Nav />
 
 <div
 	class="hero min-h-screen bg-base-200"
-	style="background-image: url('src/lib/assets/images/footer-icons/Thisguy2.png');"
+	style="background-image: url({backGround});"
 >
 	<div class="hero-content flex-col lg:flex-row">
 		<div>
