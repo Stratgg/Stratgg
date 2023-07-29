@@ -5,7 +5,7 @@
 
 <script lang="ts">
 import Footer from "$lib/components/Footer.svelte";
-import favicon from "$lib/assets/favicons/favicon-32x32.ico";
+import favicon from "$lib/assets/images/favicons/apple-touch-icon.png";
 
 const takeHome = () => {
     window.location.href = "/";

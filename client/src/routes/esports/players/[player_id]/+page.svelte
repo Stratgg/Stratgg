@@ -6,7 +6,7 @@
 <script>
   import Footer from "$lib/components/Footer.svelte";
 	import Nav from "$lib/components/Nav.svelte";
-  import favicon from "$lib/assets/favicons/favicon-32x32.ico";
+  import favicon from "$lib/assets/images/favicons/apple-touch-icon.png";
   import profile from "$lib/assets/images/profilephoto.jpg";
   import team1logo from "$lib/assets/images/team1logo.png";
 
