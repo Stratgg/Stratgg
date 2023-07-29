@@ -9,6 +9,7 @@
   import favicon from "$lib/assets/images/favicons/apple-touch-icon.png";
   import team1logo from "$lib/assets/images/team1logo.png";
   import team2logo from "$lib/assets/images/team2logo.png"; 
+  import profilePhoto from "$lib/assets/images/player-profile/temp/stan-marsh.jpg"
   export let data
   // destructuring data object
   const player = data.player[0]
@@ -55,7 +56,7 @@
   </div>
   <div id="photoAndStatsContainer" class="text-center ">
     <div id="playerProfilePhoto" >
-      <img class="rounded-full w-6/12 m-auto" src={player.photo}/> 
+      <img class="rounded-full w-6/12 m-auto" src={profilePhoto}/> 
     </div>
     <div id="playerStatsContainer" >
       <div class="text-center">
