@@ -9,7 +9,7 @@
 	import Nav from "$lib/components/Nav.svelte";
 	import favicon from "$lib/assets/images/favicons/apple-touch-icon.png";
 	import Articles from "$lib/components/Articles.svelte";
-	import backGround from "$lib/assets/images/homepage/Thisguy2.png";
+	import backGround from "$lib/assets/images/homepage/homebackground.png";
 </script>
 
 <Nav />
