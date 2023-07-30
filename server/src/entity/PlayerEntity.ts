@@ -1,4 +1,5 @@
 import { Entity, BaseEntity, Column, PrimaryGeneratedColumn } from 'typeorm'
+import 'reflect-metadata'
 
 @Entity()
 export class PlayerEntity extends BaseEntity {
@@ -19,4 +20,7 @@ export class PlayerEntity extends BaseEntity {
 
 	@Column('text')
 	declare game: string
+
+	@Column('text')
+	declare bio: string
 }

@@ -6,14 +6,14 @@
 <script>
   import Footer from "$lib/components/Footer.svelte";
 	import Nav from "$lib/components/Nav.svelte";
-  import favicon from "$lib/assets/favicons/favicon-32x32.ico";
-  import profile from "$lib/assets/images/profilephoto.jpg";
-  import team1logo from "$lib/assets/images/team1logo.png";
-
-  import team2logo from "$lib/assets/images/team2logo.png"; 
+  import favicon from "$lib/assets/images/favicons/apple-touch-icon.png";
+  import team1logo from "$lib/assets/images/player-profile/team1logo.png";
+  import team2logo from "$lib/assets/images/player-profile/team2logo.png"; 
+  import profilePhoto from "$lib/assets/images/player-profile/temp/stan-marsh.jpg"
   export let data
   // destructuring data object
-  const player = data.player[0] 
+  const player = data.player[0]
+  console.log(player.photo) 
 </script>
 
 <Nav/>
@@ -34,7 +34,6 @@
       <img class="object-contain h-24 w-48" src={team1logo}/>
       <textarea class="text-black text-center resize-none w-6/12 rounded" placeholder="score" readonly></textarea>
     </div>    
-
       <div class="m-auto">
         <h1 class="text-5xl">VS</h1>
       </div>
@@ -52,15 +51,12 @@
 <div id="playerDiv3" class="flex flex-row justify-between">
   <div class="mt-24 w-6/12">
     <h1 class="text-5xl mb-4">Bio:</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia explicabo reiciendis ducimus quidem facere fuga. Facere excepturi rerum dolores! Delectus explicabo qui asperiores deleniti vel, nesciunt dolorem fuga laudantium aliquam?</p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi quo harum facere consequuntur quos sunt, repudiandae at accusamus beatae quaerat amet, temporibus laboriosam, corrupti quasi! Eos sed libero quo quam?
+    <p>{player.bio}
     </p>
   </div>
   <div id="photoAndStatsContainer" class="text-center ">
     <div id="playerProfilePhoto" >
-    <!-- TODO add image that dynamically loads a players selected photo -->
-      <img class="rounded-full w-6/12 m-auto" src={profile}/> 
+      <img class="rounded-full w-6/12 m-auto" src={profilePhoto}/> 
     </div>
     <div id="playerStatsContainer" >
       <div class="text-center">

@@ -40,9 +40,7 @@ const start = async () => {
 	})
 
 	try {
-		const address = await server.listen({ port: 4042, host: '' }, (err, address) => {
-			// console.log(`Server listening on ${address}`)
-		})
+		const address = await server.listen({ port: 4042, host: '' }, (err, address) => {})
 	} catch (e) {
 		server.log.error(e)
 	}
