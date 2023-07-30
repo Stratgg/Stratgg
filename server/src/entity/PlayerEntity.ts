@@ -3,8 +3,8 @@ import 'reflect-metadata'
 
 @Entity()
 export class PlayerEntity extends BaseEntity {
-	@PrimaryGeneratedColumn('uuid')
-	declare id: string
+	@PrimaryGeneratedColumn()
+	declare id: number
 
 	@Column('text')
 	declare first_name: string
@@ -20,4 +20,7 @@ export class PlayerEntity extends BaseEntity {
 
 	@Column('text')
 	declare game: string
+
+	@Column('text')
+	declare bio: string
 }
