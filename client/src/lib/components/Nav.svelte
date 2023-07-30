@@ -1,3 +1,7 @@
+<script>
+	import DarkModeToggle from "./DarkModeToggle.svelte";
+</script>
+
 <div class="navbar bg-base-100">
 	<div class="flex">
 		<a href="/" class="btn btn-ghost normal-case text-xl">StratGG</a>
@@ -18,4 +22,5 @@
 			<li><a href="/contact">Contact Us</a></li>
 		</ul>
 	</div>
+	<DarkModeToggle/>
 </div>
