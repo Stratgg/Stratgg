@@ -1,3 +1,8 @@
+<script>
+	import keyboard from "$lib/assets/images/homepage/gaming-keyboard.png"
+	import gamer from "$lib/assets/images/homepage/cyberpunk-gamer.jpg"
+</script>
+
 <!-- Container for demo purpose -->
 <div class="container my-24 mx-auto md:px-6">
 	<!-- Section: Design Block -->
@@ -115,7 +120,7 @@
 					data-te-ripple-color="light"
 				>
 					<img
-						src="src\lib\assets\images\footer-icons\DesignsforArticles2.jpg"
+						src={keyboard}
 						class="w-full"
 						alt="Louvre"
 					/>
@@ -151,7 +156,7 @@
 					data-te-ripple-color="light"
 				>
 					<img
-						src="src\lib\assets\images\footer-icons\gaming keyboard.png"
+						src={gamer}
 						class="w-full"
 						alt="Louvre"
 					/>
