@@ -13,7 +13,10 @@
       <img src= {footerLogo} alt="footerLogo" class="h-24"/>
     </a>
     <div class="flex flex-col">
-      <a class="mb-4" href="our_team">Our Team</a>
+      <div id="otherlinks" class="flex flex-row">
+        <a class="mb-4 mr-3" href="our_team">Our Team</a>
+        <a class="mb-4" href="faq">FAQ</a>
+      </div>
       <p>© 2023 StratGG LLC. All rights reserved.</p>	
 
     </div>
