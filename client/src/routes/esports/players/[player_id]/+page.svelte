@@ -8,8 +8,8 @@
 	import Nav from "$lib/components/Nav.svelte";
   import favicon from "$lib/assets/images/favicons/apple-touch-icon.png";
   import team1logo from "$lib/assets/images/player-profile/team1logo.png";
-  import team2logo from "$lib/assets/images/player-profile/team2logo.png"; 
-  import profilePhoto from "$lib/assets/images/player-profile/temp/stan-marsh.jpg"
+  import team2logo from "$lib/assets/images/player-profile/team2logo.png";
+  import avatar from "$lib/assets/images/player-profile/player.jpeg"; 
   export let data
   // destructuring data object
   const player = data.player[0]
@@ -55,29 +55,34 @@
     <p>{player.bio}
     </p>
   </div>
-  <div id="photoAndStatsContainer" class="text-center ">
-    <div id="playerProfilePhoto" >
-      <img class="rounded-full w-6/12 m-auto" src={profilePhoto}/> 
-    </div>
-    <div id="playerStatsContainer" >
-      <div class="text-center">
-        <div id="playerInfo">
-          <h2>{player.first_name} {player.last_name}'s Information</h2>
-          <p>Team</p>
-          <p>{player.rating}</p>
-          <p>Role</p>
-          <p>{player.location}</p>
 
-        </div>
-        
-        <div id="playerGameStats">
-          <p>Eliminations</p>
-          <p>Death</p>
-          <p>Assists</p>
-          <p>Damage</p>
+  <div id="photoAndStatsContainer" class="text-center ">
+    <div class="card w-80 bg-base-100 shadow-xl">
+      <figure><img src={avatar}/> </figure>
+      <div class="card-body">
+        <h2 class="text-center">{player.first_name} {player.last_name} </h2>
+        <p>Team</p>
+        <p>{player.rating}</p>
+        <p>Role</p>
+        <p>{player.location}</p>
+          <div class="stats stats-vertical">
+            <div class="stat">
+              <div class="stat-title">All Time Eliminations</div>
+              <div class="stat-value">100</div>
+            </div>
+            
+            <div class="stat">
+              <div class="stat-title">All Time Death</div>
+              <div class="stat-value">25</div>
+            </div>
+            
+            <div class="stat">
+              <div class="stat-title">All Time Assist</div>
+              <div class="stat-value">18</div>
+            </div>  
+          </div>
         </div>
       </div>
     </div>
-  </div>
 </div>
 <Footer/>
