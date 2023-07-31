@@ -9,8 +9,14 @@
 
 <footer class="footer items-center p-4 bg-neutral text-neutral-content">
   <div class="items-center grid-flow-col"> 
-    <img src= {footerLogo} alt="footerLogo" class="h-24"/>
-    <p>© 2023 StratGG LLC. All rights reserved.</p>	
+    <a href="/">
+      <img src= {footerLogo} alt="footerLogo" class="h-24"/>
+    </a>
+    <div class="flex flex-col">
+      <a class="mb-4" href="our_team">Our Team</a>
+      <p>© 2023 StratGG LLC. All rights reserved.</p>	
+
+    </div>
   </div> 
   <div class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
     <div class="grid grid-flow-col gap-4">

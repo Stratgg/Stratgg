@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>StratGG / The Team</title>
+  <title>StratGG / Our Team</title>
   <link rel="icon" href={favicon} />
 </svelte:head>
 
