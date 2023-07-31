@@ -13,11 +13,12 @@ import basic from "$lib/assets/images/stratgg-team-avatars/default.svg";
 </script>
 
 <Nav/>
-<div id="teamContainer" class="flex flex-row text-center justify-between">
-  <div id="thayerContainer">
-    <div class="avatar" id="thayerAvatar">
+<div id="teamContainer" class="flex flex-col text-center justify-center">
+  <div class="flex flex-row justify-center m-auto" id="teamTopRow">
+    <div id="thayerContainer" class="m-10 bg-secondary border border-solid rounded-2xl w-96 h-96" >
+    <div class="avatar mt-20" id="thayerAvatar">
       <div class="w-40 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-        <img src={basic}/>
+        <img  src={basic}/>
       </div>
     </div>
     <div id="thayerBio" class="text-center">
@@ -27,21 +28,21 @@ import basic from "$lib/assets/images/stratgg-team-avatars/default.svg";
     </div>
   </div>
    
-  <div id="kolebeContainer">
-    <div class="avatar" id="kolebeAvatar">
+  <div id="kolebeContainer" class="m-auto bg-secondary border border-solid rounded-2xl w-96 h-96">
+    <div class="avatar mt-20" id="kolebeAvatar">
       <div class="w-40 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
         <img src={basic}/>
       </div>
     </div>
     <div id="kolebeBio" class="text-center">
     <h1>Kolebe Shanks</h1>
-    <h1>Co-Founder • UI/UX Designer • Developer  </h1>
+    <h1>UI/UX Designer • Developer  </h1>
     <p>Stardew Valley</p>
     </div>
   </div>
 
-  <div id="marshallContainer">
-    <div class="avatar" id="marshallAvatar">
+  <div id="marshallContainer" class="m-10 bg-secondary border border-solid rounded-2xl w-96 h-96">
+    <div class="avatar mt-20" id="marshallAvatar">
       <div class="w-40 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
         <img src={marshall}/>
       </div>
@@ -52,9 +53,13 @@ import basic from "$lib/assets/images/stratgg-team-avatars/default.svg";
     <p>Overwatch • Valorant</p>
     </div>
   </div>
+  </div>
   
-  <div id="lacyContainer">
-    <div class="avatar" id="lacyAvatar">
+  
+  
+  <div class="flex flex-row justify-center m-auto" id="teamBottomRow">
+    <div id="lacyContainer" class="m-10 bg-secondary border border-solid rounded-2xl w-96 h-96">
+    <div class="avatar mt-20" id="lacyAvatar">
       <div class="w-40 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
         <img src={basic}/>
       </div>
@@ -66,8 +71,8 @@ import basic from "$lib/assets/images/stratgg-team-avatars/default.svg";
     </div>
   </div>
   
-  <div id="jasmineContainer">
-    <div class="avatar" id="jasmineAvatar">
+  <div id="jasmineContainer" class="m-10 bg-secondary border border-solid rounded-2xl w-96 h-96">
+    <div class="avatar mt-20" id="jasmineAvatar">
       <div class="w-40 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
         <img src={jasmine}/>
       </div>
@@ -77,6 +82,7 @@ import basic from "$lib/assets/images/stratgg-team-avatars/default.svg";
     <h1>Developer</h1>
     <p>Sims 4 • Animal Crossing</p>
     </div>
+  </div>
   </div>
 </div>
   
