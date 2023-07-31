@@ -18,6 +18,7 @@
 
 <Nav/>
 <div id="playerDiv1" class="text-center">
+  <h1 class="text-5xl mb-4">"{player.gamer_tag}"</h1>
   <h1 class="text-7xl mb-10">{player.first_name} {player.last_name}</h1>
 </div>
 <div id="playerDiv2" class="flex flex-col text-center"   >

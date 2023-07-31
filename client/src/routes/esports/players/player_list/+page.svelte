@@ -17,6 +17,7 @@
     <table id="playerListTable" class="table table-zebra">
       <thead>
         <tr>
+          <th>Gamer Tag</th>
           <th>First Name</th>
           <th>Last Name</th>
           <th>Rating</th>
@@ -27,6 +28,7 @@
       <tbody >
           {#each playerList as player}
           <tr>
+            <td><a class="block" href='{player.id}'>{player.gamer_tag}</a></td>
             <td><a class="block" href='{player.id}'>{player.first_name}</a></td>
             <td><a class="block" href='{player.id}'>{player.last_name}</a></td>
             <td><a class="block" href='{player.id}'>{player.rating}</td>
