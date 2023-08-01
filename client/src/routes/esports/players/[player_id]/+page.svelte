@@ -91,35 +91,35 @@
 
   </div>
 </div>
-<!-- SCOREBOARD -->
+<!-- SCOREBOARD
 <div id="playerDiv2" class="flex flex-col text-center"   >
   <!-- TODO add scoreboard thats displays teams and match scores -->
   
   <!-- SCOREBOARD -->
-  <div id="recentResultsScoreboardContainer" class=" w-6/12 m-auto rounded-3xl bg-secondary"  >
+  <!-- <div id="recentResultsScoreboardContainer" class=" w-6/12 m-auto rounded-3xl bg-secondary"  >
     <h1 class="text-2xl mb-3">Recent Match</h1>
-    <div id="scoreboardTeamsAndScore" class=" flex flex-row text justify-center text-center space-x-6">
+    <div id="scoreboardTeamsAndScore" class=" flex flex-row text justify-center text-center space-x-6"> -->
       <!-- TEAM 1 RESULTS -->
-    <div id="team1">
+    <!-- <div id="team1"> -->
       <!-- TODO add image that dynamically generates depending on players team -->
-      <h2>Axemen</h2>
+      <!-- <h2>Axemen</h2>
       <img class="object-contain h-24 w-48" src={team1logo}/>
       <textarea class="text-black text-center resize-none w-6/12 rounded" placeholder="score" readonly></textarea>
     </div>    
       <div class="m-auto">
         <h1 class="text-5xl">VS</h1>
       </div>
-            
+             -->
     <!-- TEAM 2 RESULTS -->
-    <div id="team2" >
+    <!-- <div id="team2" > -->
       <!-- TODO add image that dynamically generates depending on players team -->
-      <h2>Dragons</h2>
+      <!-- <h2>Dragons</h2>
       <img class="object-contain h-24 w-48" src={team2logo}/>
       <textarea class="text-black text-center resize-none w-6/12 rounded" placeholder="score" readonly></textarea>
     </div>
   </div>
 </div>
 
-</div>
+</div> -->
 
 <Footer/>
