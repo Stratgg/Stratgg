@@ -14,8 +14,9 @@
     </a>
     <div class="flex flex-col">
       <div id="otherlinks" class="flex flex-row">
-        <a class="mb-4 mr-3" href="our_team">Our Team</a>
-        <a class="mb-4" href="faq">FAQ</a>
+        <a class="mb-4 mr-3" href="/our_team">Our Team</a>
+        <a class="mb-4 mr-3" href="/faq">FAQ</a>
+        <a class="mb-4" href="/contact">Contact Us</a>
       </div>
       <p>© 2023 StratGG LLC. All rights reserved.</p>	
 
