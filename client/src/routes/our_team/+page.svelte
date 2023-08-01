@@ -14,8 +14,8 @@ import basic from "$lib/assets/images/stratgg-team-avatars/default.svg";
 </script>
 
 <Nav/>
-<div id="teamContainer" class="flex flex-col text-center justify-center">
-  <div class="flex flex-row justify-center m-auto" id="teamTopRow">
+<div id="teamContainer" class="flex flex-col text-center justify-center ">
+  <div class="flex flex-col justify-center xl:flex-row m-auto" id="teamTopRow">
     <div id="thayerContainer" class="m-10 bg-secondary rounded-2xl w-96 h-96 hover:cursor-pointer hover:shadow-black hover: shadow-2xl hover:bg-slate-600 text-white"  >
     <div class="avatar mt-20" id="thayerAvatar">
       <div class="w-40 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
@@ -58,7 +58,7 @@ import basic from "$lib/assets/images/stratgg-team-avatars/default.svg";
   
   
   
-  <div class="flex flex-row justify-center m-auto" id="teamBottomRow">
+  <div class="flex flex-col justify-center xl:flex-row m-auto" id="teamBottomRow">
     <div id="lacyContainer" class="m-10 bg-secondary rounded-2xl w-96 h-96 hover:cursor-pointer hover:shadow-black hover: shadow-2xl hover:bg-slate-600 text-white">
     <div class="avatar mt-20" id="lacyAvatar">
       <div class="w-40 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
