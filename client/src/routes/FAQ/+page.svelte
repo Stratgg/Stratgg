@@ -44,8 +44,9 @@
                     <span class="text-lg font-semibold text-white">?</span>
                 </div>
                 <div class="ml-4">
-                    <p class="text-xl font-semibold text-white">How can I get in contact with support?</p>
-                    <p class="mt-4 text-base text-gray-400">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                    <p class="text-xl font-semibold text-white">How do I give feedback and ask questions?</p>
+                    <p class="mt-4 text-base text-gray-400">Visit our <a class="text-accent transition-all duration-200 hover:text-accent focus:accent hover:underline" href="/contact">Contact</a> page to leave us your feedback.
+                               
                 </div>
             </div>
 
@@ -54,17 +55,12 @@
                     <span class="text-lg font-semibold text-white">?</span>
                 </div>
                 <div class="ml-4">
-                    <p class="text-xl font-semibold text-white">How do can StratGG benefit me?</p>
+                    <p class="text-xl font-semibold text-white">How can StratGG benefit me?</p>
                     <p class="mt-4 text-base text-gray-400">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                 </div>
             </div>
         </div>
 
-        <div class="flex items-center justify-center mt-12 md:mt-20">
-            <div class="px-8 py-4 text-center bg-gray-800 rounded-full">
-                <p class="text-gray-50">If You Didn’t find what you were looking for Visit Our <a href="#" title="" class="text-yellow-300 transition-all duration-200 hover:text-yellow-400 focus:text-yellow-400 hover:underline">Contact Page</a> And Let Us Know</p>
-            </div>
-        </div>
     </div>
 </section>
 
