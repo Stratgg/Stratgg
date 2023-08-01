@@ -1,11 +1,11 @@
 # Stratgg
 <p>
-Here at Strat gg, we want to create a competitive scene for teens (under 18) to get recognized for their abilities in video games. 
+Here at Stratgg, we want to create a competitive scene for teens (under 18) to get recognized for their abilities in video games. 
 We will provide opportunities for teens to get recruited to professional esports or college teams. 
-Strat gg will maintain personal relationships with colleges and coaches nationwide, allowing our members to receive university scholarships. 
+Stratgg will maintain personal relationships with colleges and coaches nationwide, allowing our members to receive university scholarships. 
 
-Youth teams will compete against other youth teams online and in LAN events (in-person). Strat gg is committed to developing kids as a person first, then a player. 
-Players will have their own profile on our website showcasing their bio, stats, and highlights, competing for the top ranks. Think of Strat gg as the AAU of video games.
+Youth teams will compete against other youth teams online and in LAN events (in-person). Stratgg is committed to developing kids as a person first, then a player. 
+Players will have their own profile on our website showcasing their bio, stats, and highlights, competing for the top ranks. Think of Stratgg as the AAU of video games.
 
 ## Goals
 
