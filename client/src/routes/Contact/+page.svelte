@@ -34,31 +34,41 @@ const handleSubmit = async function(data:any) {
 
   <Nav/> 
 
-<h1 class="mb-4 text-4xl tracking-tight text-center text-white-900 dark:text-white">Contact Us</h1>
-  
+  <section class="dark:bg-gray-900">
+    <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+      <h1 class="mb-4 text-4xl tracking-tight font-extrabold text-center dark:text-white">Contact Us</h1>
+      <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Got a technical issue? Need account help? Have ideas for improvements? Let us know.</p>
 
-  <div class="flex mb-4">
+  <!-- <div class="flex mb-4">
    
     <div class="w-1/2">
     
 
 
-    </div>
+    </div> -->
     
-    <div class="w-1/2">
-      <form on:submit|preventDefault={handleSubmit}>
+    <!-- <div class="w-1/2"> -->
+      <form on:submit|preventDefault={handleSubmit} class="space-y-8">
         <input type="hidden" name="access_key" value="4ca65685-6d54-4f45-a676-c573dfaa9303">
-        <label for="name">Name </label>
+        <div>
+        <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Name </label>
         <input type="text" name="name" placeholder="Name" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"required />
-        <label for="email">Email </label>
+        </div>
+        <div>
+        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Email </label>
         <input type="email" name="email" placeholder="Email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" required />
-        <label for="message">Message </label>
+        </div>
+        <div class="sm:col-span-2">
+        <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Message </label>
         <textarea name="message" required rows="3" placeholder="Message" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"></textarea>
-        <input type="submit" />
+        </div>
+        <input type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"/>
       </form>
-    </div>
+      </div>
+      </section>
+    <!-- </div> -->
   
-  </div>
+  <!-- </div> -->
 
 <div>{status}</div>
 
