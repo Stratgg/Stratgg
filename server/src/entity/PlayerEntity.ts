@@ -7,6 +7,9 @@ export class PlayerEntity extends BaseEntity {
 	declare id: number
 
 	@Column('text')
+	declare gamer_tag: string
+
+	@Column('text')
 	declare first_name: string
 
 	@Column('text')

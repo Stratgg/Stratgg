@@ -13,10 +13,11 @@
   </script>
 
 <Nav/>
-  <div id="playerListTableContainer" class="overflow-x-auto">
-    <table id="playerListTable" class="table table-zebra">
-      <thead>
+  <div id="playerListTableContainer" class="overflow-x-auto  w-6/12 m-auto mt-20 mb-20">
+    <table id="playerListTable" class="table">
+      <thead class="text-3xl ">
         <tr>
+          <th>Gamer Tag</th>
           <th>First Name</th>
           <th>Last Name</th>
           <th>Rating</th>
@@ -24,9 +25,10 @@
           <th>Game</th>
         </tr>
       </thead>
-      <tbody >
+      <tbody class="text-xl text-center" >
           {#each playerList as player}
-          <tr>
+          <tr class="hover:bg-gray-400">
+            <td><a class="block" href='{player.id}'>{player.gamer_tag}</a></td>
             <td><a class="block" href='{player.id}'>{player.first_name}</a></td>
             <td><a class="block" href='{player.id}'>{player.last_name}</a></td>
             <td><a class="block" href='{player.id}'>{player.rating}</td>
