@@ -7,7 +7,7 @@
 	"private": true,
 	"scripts": {
 		"client": "yarn workspace client",
-		"server":"yarn workspace server",
+		"server": "yarn workspace server",
 		"dev:client": "yarn client dev",
 		"dev:server": "yarn server dev",
 		"build": "run-s build:client build:server",
@@ -16,9 +16,11 @@
 		"start": "run-s start:client start:server",
 		"start:client": "yarn client start",
 		"start:server": "yarn server start"
-
 	},
 	"devDependencies": {
 		"npm-run-all": "^4.1.5"
+	},
+	"dependencies": {
+		"esbuild": "^0.18.15"
 	}
 }

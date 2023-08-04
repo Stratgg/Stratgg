@@ -6,21 +6,25 @@
   import footerLogo from '$lib/assets/images/footer-icons/footer-logo.png';
 </script>	
 
-<footer class="footer footer-center p-10 bg-base-200 text-base-content rounded text-base ">	
-  <div class="grid grid-flow-col gap-4">	
-    <a class="link link-hover" href="/">Home</a>	
-    <a class="link link-hover" href="/contact">Contact</a> 	
-    <a class="link link-hover" href="/faq">FAQ</a>	
-    <a class="link link-hover" href="#">Terms of Use</a>	
-    <a class="link link-hover" href="#">Privacy Policy</a>	
-  </div> 	
-  <div>
-    <img src= {footerLogo} alt="footerLogo" class=""/>
 
-  </div>	
-  <div>	
-    <div class="grid grid-flow-col gap-4">	
-      <a href="#">	
+<footer class="footer items-center p-4 bg-neutral text-neutral-content">
+  <div class="items-center grid-flow-col"> 
+    <a href="/">
+      <img src= {footerLogo} alt="footerLogo" class="h-24"/>
+    </a>
+    <div class="flex flex-col">
+      <div id="otherlinks" class="flex flex-row">
+        <a class="mb-4 mr-3" href="/our_team">Our Team</a>
+        <a class="mb-4 mr-3" href="/faq">FAQ</a>
+        <a class="mb-4" href="/contact">Contact Us</a>
+      </div>
+      <p>© 2023 StratGG LLC. All rights reserved.</p>	
+
+    </div>
+  </div> 
+  <div class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+    <div class="grid grid-flow-col gap-4">
+    <a href="#">	
         <img src= {twitter} alt="twitter" class="object-scale-down h-14" />	
       </a>	
       <a href="#">	
@@ -31,10 +35,7 @@
       </a>	
       <a href="#">	
         <img src= {youtube} alt="youtube" class="object-scale-down h-14"/>	
-      </a> 
-    </div>	
-  </div> 	
-  <div>	
-    <p>© 2023 StratGG LLC. All rights reserved.</p>	
-  </div>	
-</footer>	
+      </a>
+    </div> 
+  </div>
+</footer>

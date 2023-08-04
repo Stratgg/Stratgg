@@ -62,4 +62,5 @@ const handleSubmit = async function(data:any) {
 
 <div>{status}</div>
 
-  <Footer/> 
+ <Footer/> 
+
