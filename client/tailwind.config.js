@@ -24,6 +24,7 @@ export default {
  "warning": "#f4c152",
           
  "error": "#fb6f84",
+    
           },
         },
     ]
@@ -44,6 +45,10 @@ export default {
 
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
+    },
+    colors: {
+      valorantRed: '#FF4655',
+      valorantGrey: '##0F1822',
     },
     extend: {},
   },

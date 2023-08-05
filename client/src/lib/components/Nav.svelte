@@ -13,8 +13,8 @@
 				<details>
 					<summary> Games </summary>
 					<ul class="p-2 bg-base-100">
-						<li><a href="/esports/games/cs_go">CS:GO</a></li>
-						<li><a href="/esports/games/league_of_legends">League of Legends</a></li>
+						<!-- <li><a href="/esports/games/cs_go">CS:GO</a></li> -->
+						<!-- <li><a href="/esports/games/league_of_legends">League of Legends</a></li> -->
 						<li><a href="/esports/games/valorant">Valorant</a></li>
 					</ul>
 				</details>
