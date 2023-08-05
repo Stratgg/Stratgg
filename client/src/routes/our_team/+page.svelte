@@ -11,6 +11,7 @@ import marshall from "$lib/assets/images/stratgg-team-avatars/schooly.jpg";
 import jasmine from "$lib/assets/images/stratgg-team-avatars/jazz.jpg";
 import tre from "$lib/assets/images/stratgg-team-avatars/tre.jpg";
 import basic from "$lib/assets/images/stratgg-team-avatars/default.svg";
+import gnome from "$lib/assets/images/stratgg-team-avatars/gnome.png";
 </script>
 
 <Nav/>
@@ -100,7 +101,7 @@ import basic from "$lib/assets/images/stratgg-team-avatars/default.svg";
    
     <div class="  avatar mt-20 [backface-visibility:hidden]" id="lacyAvatar">
       <div class=" w-40 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-        <img  src={basic}/>
+        <img  src={gnome}/>
       </div>
     </div>
 
