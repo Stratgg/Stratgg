@@ -39,15 +39,7 @@ const handleSubmit = async function(data:any) {
       <h1 class="mb-4 text-4xl tracking-tight font-extrabold text-center dark:text-white">Contact Us</h1>
       <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Got a technical issue? Need account help? Have ideas for improvements? Let us know.</p>
 
-  <!-- <div class="flex mb-4">
-   
-    <div class="w-1/2">
-    
-
-
-    </div> -->
-    
-    <!-- <div class="w-1/2"> -->
+ 
       <form on:submit|preventDefault={handleSubmit} class="space-y-8">
         <input type="hidden" name="access_key" value="4ca65685-6d54-4f45-a676-c573dfaa9303">
         <div>

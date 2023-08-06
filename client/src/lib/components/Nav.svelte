@@ -19,7 +19,7 @@
 					</ul>
 				</details>
 			</li>
-			<li><a href="/contact">Contact Us</a></li>
+			<li><a href="/contact_us">Contact Us</a></li>
 		</ul>
 	</div>
 	<DarkModeToggle/>
