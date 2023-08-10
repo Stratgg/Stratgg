@@ -16,12 +16,12 @@
 <Nav/>
 <header>Valorant</header>
 
-<div id="valorantMainContianer" class="flex flex-row justify-around">
+<div id="valorantMainContianer" class="flex flex-row justify-around ">
   
-  <div id="valorantLeaderBoardAndSchedule" class="flex flex-row">
+  <div id="valorantLeaderBoardAndSchedule" class="flex flex-row ">
     <!-- Leaderboard -->
-    <div id="valorantLeaderboardContainer" class="flex flex-col">
-      <h1>Leaderboard</h1>
+    <div id="valorantLeaderboardContainer" class="flex flex-col m-auto mr-10 w-96 bg-valorantRed border rounded">
+      <h1 class="text-center text-4xl">Leaderboard</h1>
       <div id="valorantLeaderBoardNames">
         <ul >
           <li >
@@ -34,8 +34,8 @@
       </div>
     </div>
     <!-- Schedule -->
-    <div id="valorantScheduleContainer" class="flex flex-col" >
-      <h1>Schedule</h1>
+    <div id="valorantScheduleContainer" class="flex flex-col m-auto w-96 bg-valorantRed border rounded" >
+      <h1 class="text-center text-4xl">Schedule</h1>
         <div id="valorantScheduleDates">
           <ul>
             <li>
@@ -54,7 +54,7 @@
 
 <div id="valorantEventsAndResults" class="flex flex-col">
     <!--Upcoming Events  -->
-    <div id="valorantUpcomingEvents">
+    <div id="valorantUpcomingEvents" >
       <h1>Upcoming Events</h1>
 
       <ul>
@@ -86,9 +86,6 @@
       </ul>
     </div>
   </div>
-
-
-
 </div>
 
 
