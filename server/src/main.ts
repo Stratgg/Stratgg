@@ -5,6 +5,7 @@ import dotenv from 'dotenv'
 import { playerList } from './routes/PlayerList'
 import { databasePlugin } from './data-source'
 import { players } from './routes/Players'
+import { match } from './routes/Match'
 
 dotenv.config()
 
@@ -37,6 +38,10 @@ const start = async () => {
 
 	await server.register(players, {
 		prefix: '/players',
+	})
+
+	await server.register(match, {
+		prefix: '/match',
 	})
 
 	try {

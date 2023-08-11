@@ -19,11 +19,11 @@ export class PlayerEntity extends BaseEntity {
 	declare rating: string
 
 	@Column('text')
-	declare location: string
-
-	@Column('text')
 	declare game: string
 
 	@Column('text')
 	declare bio: string
+
+	@Column('text')
+	declare team: string
 }

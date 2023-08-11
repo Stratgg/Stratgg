@@ -32,7 +32,7 @@
             <td><a class="block" href='{player.id}'>{player.first_name}</a></td>
             <td><a class="block" href='{player.id}'>{player.last_name}</a></td>
             <td><a class="block" href='{player.id}'>{player.rating}</td>
-            <td><a class="block" href='{player.id}'>{player.location}</td>
+            <td><a class="block" href='{player.id}'>{player.team}</td>
             <td><a class="block" href='{player.id}'>{player.game}</td>
             </tr>
           {/each}    
