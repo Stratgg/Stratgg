@@ -37,9 +37,9 @@
   <div class="card bg-base-100 shadow-xl">
     <div class="card card-compact w-96 bg-base-100 ">
   <div class="card-body">
-    <h2 class="card-title justify-center text-3xl">{player.first_name} {player.last_name}</h2>
     <h3 class="card-title justify-center">"{player.gamer_tag}"</h3>
-    <h2 class="card-title justify-center">{player.location}</h2>
+    <h2 class="card-title justify-center text-3xl">{player.first_name} {player.last_name}</h2>
+    <h2 class="card-title justify-center">{player.team}</h2>
     
     <h2 class="card-title justify-center">{player.game}</h2>
     <h2 class="card-title justify-center">Role</h2>
