@@ -45,7 +45,7 @@
                 </div>
                 <div class="ml-4">
                     <p class="text-xl font-semibold text-white">How do I give feedback and ask questions?</p>
-                    <p class="mt-4 text-base text-gray-400">Visit our <a class="text-accent transition-all duration-200 hover:text-accent focus:accent hover:underline" href="/contact">Contact</a> page to leave us your feedback.
+                    <p class="mt-4 text-base text-gray-400">Visit our <a class="text-accent transition-all duration-200 hover:text-accent focus:accent hover:underline" href="/contact_us">Contact</a> page to leave us your feedback.
                                
                 </div>
             </div>
