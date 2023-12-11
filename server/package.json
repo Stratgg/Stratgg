@@ -6,7 +6,7 @@
 		"@types/node": "^18.15.3",
 		"nodemon": "^3.0.1",
 		"vite": "^4.2.0",
-		"vite-node": "^0.33.0",
+		"vite-node": "^1.0.4",
 		"vite-plugin-node": "^3.0.2"
 	},
 	"scripts": {
